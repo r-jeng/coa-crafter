@@ -1,0 +1,135 @@
+body {
+  background-color: lavender;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+  /* display: flex; */
+  text-align: center;
+}
+
+.current-month {
+  text-align: left;
+}
+
+.months {
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+  height: 50px;
+
+}
+
+.month_title {
+  cursor: pointer;
+  text-align: center;
+}
+
+.month {
+  cursor: pointer;
+  margin: 5px;
+}
+
+.archive {
+  color: grey;
+}
+
+.generate_COA_button {
+  background-color: #7a758a; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 16px;
+  cursor: pointer;
+  /* float: right; */
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.feed-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  /* float: center;
+  text-align: center; */
+  width: 55%;
+  margin-left: 400px;
+  max-height: 600px;
+  max-width: 1000px;
+  margin-top: -80px;
+}
+
+.feed-list {
+  /* display: flex;
+  flex-direction: column; */
+  overflow: scroll;
+}
+
+.coa {
+  cursor: pointer;
+  float: left;
+  padding: 5px;
+}
+
+.delete {
+  float: right;
+  width: 25px;
+  height: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 32px;
+  margin-top: 4px;
+  /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.coa-form {
+  float: center;
+  text-align: right;
+  width: 45%;
+  margin-left: 200px;
+  margin-bottom: 100px;
+}
+
+.closeForm {
+  margin-left: 900px;
+}
+
+.pending-container {
+  /* display: flex; */
+  /* float: right; */
+  text-align: right;
+  margin-bottom: 600px;
+}
+
+.searchbar-container {
+  float: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.search-bar {
+  padding: 9px;
+  font-size: 17px;
+  border: 1px solid grey;
+  width: 20%;
+  background: #f1f1f1;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.search-button {
+  width: 10%;
+  padding: 9px;
+  background: #575757;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.searchBarAndGenerateContainer {
+  display: relative;
+}

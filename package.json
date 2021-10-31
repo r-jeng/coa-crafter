@@ -1,0 +1,55 @@
+{
+  "name": "hr-sfo137-mvp",
+  "version": "1.0.0",
+  "description": "Generates COAs for Finished Food Products(Certificate of Analysis)",
+  "main": "index.js",
+  "scripts": {
+    "start": "craco start",
+     "build": "craco build",
+     "test": "craco test",
+     "server": "nodemon server/index.js",
+     "react-dev": "webpack --config ./webpack.config.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r-jeng/hr-sfo137-mvp.git"
+  },
+  "keywords": [],
+  "author": "Robin Jeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r-jeng/hr-sfo137-mvp/issues"
+  },
+  "homepage": "https://github.com/r-jeng/hr-sfo137-mvp#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "autoprefixer": "^9.8.8",
+    "babel-loader": "^8.2.2",
+    "nodemon": "^2.0.13",
+    "postcss": "^7.0.39",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0"
+  },
+  "dependencies": {
+    "@craco/craco": "^6.3.0",
+    "@react-pdf/renderer": "^1.6.17",
+    "assert": "^2.0.0",
+    "axios": "^0.23.0",
+    "body-parser": "^1.19.0",
+    "browserify-zlib": "^0.2.0",
+    "express": "^4.17.1",
+    "html2canvas": "^1.3.2",
+    "jspdf": "^2.4.0",
+    "mongoose": "^6.0.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-pdf": "^5.4.0",
+    "stream-browserify": "^3.0.0",
+    "underscore": "^1.13.1",
+    "util": "^0.12.4"
+  }
+}

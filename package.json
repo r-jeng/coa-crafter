@@ -4,9 +4,6 @@
   "description": "Generates COAs for Finished Food Products(Certificate of Analysis)",
   "main": "index.js",
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
     "server": "nodemon server/index.js",
     "react-dev": "webpack --config ./webpack.config.js -w"
   },

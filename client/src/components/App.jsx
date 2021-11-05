@@ -7,7 +7,6 @@ import Feed from './Feed.jsx';
 import GenerateCOAButton from './GenerateCOAButton.jsx';
 import Form from './Form.jsx';
 import Pending from './Pending.jsx';
-
 import Test from './Test.jsx';
 
 class App extends React.Component {
@@ -28,7 +27,6 @@ class App extends React.Component {
     this.handleMonthData = this.handleMonthData.bind(this);
   }
 
-  // get all data here
   componentDidMount() {
     this.getCOAs();
   }
@@ -137,14 +135,6 @@ class App extends React.Component {
   // click coa will download pdf
   // user can clicked downloaded file to view in browser
   //
-  // future additions:
-  // coa pdf preview
-  // submitting form displays on pdf preview form
-  // user to verify pdf preview
-  // save pdf button will update database with pdf url
-  // pass to months
-  // each month will render COAs for that month
-  // month passed from months passed to COA feed
 
   render() {
     return (

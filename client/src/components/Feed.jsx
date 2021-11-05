@@ -13,7 +13,6 @@ class Feed extends React.Component {
   // coa clicked
   // open new window with pdf url
   openPDF(lot) {
-    console.log('openPDF function clicked!', lot)
     const url = `http://127.0.0.1:8887/${lot}.pdf`;
     window.open(url);
     // window.loadURL(url);

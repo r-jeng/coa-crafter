@@ -15,17 +15,12 @@ class Feed extends React.Component {
   openPDF(lot) {
     console.log('openPDF function clicked!', lot)
     const url = `http://127.0.0.1:8887/${lot}.pdf`;
-    // const url = `/Users/robinjeng/Downloads/J2104A.pdf`;
-    // const url = `/Users/robinjeng/Downloads/hr-sfo137-mvp/database/pdf/J2103F.pdf`;
     window.open(url);
     // window.loadURL(url);
   }
 
   deleteCOA(coaID, coaMonth) {
     this.props.handleCOADeleteData(coaID, coaMonth);
-    // pass coaID back to App
-    // handle delete from App
-    // request updated list of COAs
   }
 
   render() {

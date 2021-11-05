@@ -10,7 +10,7 @@ Built for the Food Safety and Quality Department, a way to generate Certificate 
 ## Getting Started
 
 - Install Google Chrome Extension [Web Server for Chrome](https://bit.ly/3oh9Z5p)
-- Open Web Server for Chrome
+- Open Web Server for Chrome Extension
 - Toggle Web Server to 'STARTED'
 - Choose a folder to store created certificates
 

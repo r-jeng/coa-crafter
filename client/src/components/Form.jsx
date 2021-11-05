@@ -1,6 +1,6 @@
 import React from 'react';
 import jsPDF from 'jspdf';
-import imgData from './PDFHeader.jsx';
+import imgData from './PDFTemplate/PDFHeader.jsx';
 import signature from './PDFSignature.jsx';
 import paw from './PDFPaw.jsx';
 

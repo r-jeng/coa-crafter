@@ -47,7 +47,6 @@ class App extends React.Component {
   }
 
   handleCOADelete(coaIDToDelete, coaDeleteMonth) {
-    // console.log('coa to delete ID in App', coaIDToDelete, coaDeleteMonth);
     const coaIDToDeleteObj = { data: { _id: coaIDToDelete } };
     axios.delete('/coas', coaIDToDeleteObj)
       .then((res) => {

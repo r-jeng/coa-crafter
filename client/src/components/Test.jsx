@@ -7,11 +7,6 @@ class Test extends React.Component {
     this.state = {}
   };
 
-  // click download pdf button
-  // pdf downloads to computer
-  // pass input information from form to here
-  // pdf changes dynamically
-
   generatePDF = () => {
     var doc = new jsPDF('p', 'pt');
 

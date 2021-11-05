@@ -27,8 +27,9 @@ npm run react-dev
 npm start
 ```
 - Check out COA Crafter
+```
 Open http://localhost:8080/
-
+```
 
 ## Technologies
 - Express

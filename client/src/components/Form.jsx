@@ -2,7 +2,7 @@ import React from 'react';
 import jsPDF from 'jspdf';
 import imgData from './PDFTemplate/PDFHeader.jsx';
 import signature from './PDFTemplate/PDFSignature.jsx';
-import paw from './PDFPaw.jsx';
+import paw from './PDFTemplate/PDFPaw.jsx';
 
 class Form extends React.Component {
   constructor(props) {

@@ -1,4 +1,4 @@
-#COA Crafter
+# COA Crafter
 
 Built for the Food Safety and Quality Department, a way to generate Certificate of Analysis for Finished Products.
 

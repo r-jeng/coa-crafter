@@ -18,9 +18,7 @@ class Months extends React.Component {
     this.getNovemberCOAs = this.getNovemberCOAs.bind(this);
     this.getDecemberCOAs = this.getDecemberCOAs.bind(this);
   }
-  /////////////////////////////////////////////////
-  // TODO - refactor to eliminate mutliple props //
-  /////////////////////////////////////////////////
+
   getJanuaryCOAs(january) {
     this.props.handleMonthClick(january);
   };
@@ -70,7 +68,7 @@ class Months extends React.Component {
   };
 
   render() {
-  
+
     return (
       <div className="months">
         <h3 className="month_title">2021</h3>

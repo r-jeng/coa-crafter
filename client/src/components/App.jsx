@@ -47,14 +47,12 @@ class App extends React.Component {
   }
 
   handleCOADelete(coaIDToDelete, coaDeleteMonth) {
-    console.log('coa to delete ID in App', coaIDToDelete, coaDeleteMonth);
+    // console.log('coa to delete ID in App', coaIDToDelete, coaDeleteMonth);
     const coaIDToDeleteObj = { data: { _id: coaIDToDelete } };
     axios.delete('/coas', coaIDToDeleteObj)
       .then((res) => {
-        // call this.getCOAs to render updated database
         console.log('delete COA requested from App + res', res);
         this.handleMonthData(coaDeleteMonth.slice(0, 2));
-        // console.log('delete COA requested from App', res.data)
       })
       .catch((err) => {
         console.log('delete COA requested from App failed')
@@ -108,7 +106,6 @@ class App extends React.Component {
           clickedMonth: filtered,
         });
       });
-    // set state to be data for get request
   }
 
   handleNewCOA(newCOA) {
@@ -129,12 +126,6 @@ class App extends React.Component {
     })
     this.handleMonthData(newCOAMonthNumber);
   }
-  // generate COA button displays input form for COA info
-  // input form: submit will add info & pdf url to database
-  //
-  // click coa will download pdf
-  // user can clicked downloaded file to view in browser
-  //
 
   render() {
     return (

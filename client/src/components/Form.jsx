@@ -36,7 +36,6 @@ class Form extends React.Component {
   // input field for COA data
   onSubmit(event) {
     event.preventDefault();
-    // new COA state
     const newCOA = {
       dateApproved: this.state.dateApproved,
       productName: this.state.productName,

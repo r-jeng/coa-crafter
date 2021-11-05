@@ -6,6 +6,7 @@ Built for the Food Safety and Quality Department, a way to generate Certificate 
 - Fill-out form can be opened at a click of a button
 - Certificate in PDF format is auto-saved on creation
 - Certificates are auto-sorted by months according to the approved date
+- View all saved certificates sorted by the most recent
 
 ## Getting Started
 

@@ -45,7 +45,6 @@ class Form extends React.Component {
       chem: this.state.chem,
       pdfUrl: `file:///Users/robinjeng/Downloads/${this.state.lotNumber}.pdf`,
     };
-    // send info back to App
     this.props.handleNewCOA(newCOA);
   }
 

@@ -10,8 +10,6 @@ class Feed extends React.Component {
     this.deleteCOA = this.deleteCOA.bind(this);
   }
 
-  // coa clicked
-  // open new window with pdf url
   openPDF(lot) {
     const url = `http://127.0.0.1:8887/${lot}.pdf`;
     window.open(url);
